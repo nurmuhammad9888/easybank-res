@@ -116,6 +116,9 @@ body{
     color: #FFFFFF;
     text-decoration: none;
 }
+.nav__btn:hover{
+    opacity: 0.4;
+}
 /*  SITE HEADER FINISH */
 .hero{
     position: relative;
@@ -124,25 +127,7 @@ body{
     background-size: 1070px 900px;
     background-repeat: no-repeat;
     background-position: calc(50% + 488px) calc(50% + -60px);
-    /* z-index: 1; */
 }
-.hero__img{
-    /* position: absolute;
-    /* top: -150px;
-    right: -0px; */
-    /* width: 800px;
-    height: 956px;
-    background-image: url("../images/hero-bg.png"); 
-    background-size: contain; 
-    background-repeat: no-repeat; 
-    background-position: calc(50% + 50px) calc(50% + 50px);
-    z-index: -1; */
-    /* position: absolute;
-    width: 1390px;
-    height: 896px;
-    */
-}
-
 .hero__wrap{
     width: 447px;
     padding-top: 250px;
@@ -153,7 +138,6 @@ body{
     line-height: 64px;
     letter-spacing: -1px;
     color: #2D314D;
-    /* color:#fff; */
 }
 .hero__text {
     width: 447px;
@@ -176,6 +160,9 @@ body{
     line-height: 28px;
     color: #FFFFFF;
     text-decoration: none;
+}
+.hero__btn:hover{
+    opacity: 0.4;
 }
 .chosse {
     margin-top: -96px;
@@ -309,14 +296,15 @@ body{
     color: #2D314D;
     text-decoration: none;
 }
+.articles__link:hover{
+    color: #30C88F;
+}
 .articles__item p{
     font-size: 13px;
     line-height: 18px;
     letter-spacing: -0.203125px;
     color: #9597A5;
 }
-
-
 .site-footer {
     background: #2D314D;
 }
@@ -324,19 +312,10 @@ body{
     display: flex;
     padding-top: 48px;
     padding-bottom: 48px;
-    
-}
-.site-footer__logo {
 }
 .site-footer-logo-img{
     display: inline-block;
     margin-bottom: 53px;
-}
-
-
-.site-footer__socials {
-}
-.socials {
 }
 .socials__list {
     display: flex;
@@ -351,8 +330,9 @@ body{
 .socials__link {
     fill: #fff;
 }
-
-
+.socials__link:hover{
+    fill:#30C88F;
+}
 .site-footer__list-wrap{
     display: flex;
 }
@@ -373,6 +353,9 @@ body{
     letter-spacing: -0.234375px;
     color: #FFFFFF;
 }
+.site-footer__link:hover{
+        color:#30C88F;
+}
 .site-footer__button {
     margin-left: auto;
     
@@ -387,6 +370,9 @@ body{
     font-size: 14px;
     line-height: 28px;
     color: #FFFFFF;
+}
+.site-footer__button button:hover{
+    opacity: 0.4;
 }
 .site-footer__button span{
     margin-top: 24px;
